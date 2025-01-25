@@ -11,8 +11,8 @@ class User:
     def show_user(self):
         return f'Пользователь: {self.username}, Email: {self.email}, Активен: {self.is_active}'
 
-user1 = User('user1', '<EMAIL>', )
-user2 = User('user2', '<EMAIL>', )
+user1 = User('user1', '<EMAIL>')
+user2 = User('user2', '<EMAIL>')
 print(user1.show_user())
 print(user1.deactivate())
 print(user1.show_user())
